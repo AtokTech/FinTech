@@ -1,0 +1,17 @@
+#!/bin/bash
+# This script explains simple IF condition
+echo "Welcome to GtBank!"
+echo "Please enter your pin"
+
+read -s pin
+
+if [ $pin == 2016 ]
+then
+        echo "Great! You entered correct pin"
+        echo "Please, proceed to your transaction"
+else
+        echo "Sorry, you entered wrong pin"
+        echo "Your account is blocked for your protection"
+        echo "Please visit our nearest branch for firther assitance. Thank you!"
+fi
+
