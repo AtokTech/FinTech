@@ -10,7 +10,7 @@ then
         echo " Welcome to our Bank"
         echo "The best bank of the year"
 	echo "Great! You entered correct pin"
-        echo "Please, proceed to your transaction"
+        echo "Thank you! Please, proceed to your transaction"
 else
         echo "Sorry, you entered wrong pin"
         echo "Your account is blocked for your protection"
