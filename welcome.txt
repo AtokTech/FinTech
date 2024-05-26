@@ -7,11 +7,13 @@ read -s pin
 
 if [ $pin == 2016 ]
 then
-        echo "Great! You entered correct pin"
+        echo " Welcome to our Bank"
+	echo "Great! You entered correct pin"
         echo "Please, proceed to your transaction"
 else
         echo "Sorry, you entered wrong pin"
         echo "Your account is blocked for your protection"
         echo "Please visit our nearest branch for firther assitance. Thank you!"
+	
 fi
 
