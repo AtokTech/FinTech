@@ -8,6 +8,7 @@ read -s pin
 if [ $pin == 2016 ]
 then
         echo " Welcome to our Bank"
+        echo "The best bank of the year"
 	echo "Great! You entered correct pin"
         echo "Please, proceed to your transaction"
 else
