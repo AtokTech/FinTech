@@ -14,7 +14,7 @@ then
 else
         echo "Sorry, you entered wrong pin"
         echo "Your account is blocked for your protection"
-        echo "Please visit our nearest branch for firther assitance. Thank you!"
+        echo "Please visit our nearest branch for further assitance. Thank you!"
 	
 fi
 
